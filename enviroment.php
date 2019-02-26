@@ -1,4 +1,4 @@
 <?php
 
-define("ENVIRONMENT","deselopment");
-define("ENVIRONMENT", "production");
+$config("ENVIRONMENT","deselopment");
+$config("ENVIRONMENT", "production");
