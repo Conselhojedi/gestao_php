@@ -1,4 +1,4 @@
 RewriteEngine On
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^(.*)$ /gestao_php/index.php?url=$1 [QSA,L]
+RewriteRule ^(.*)$ /gestao_php/index.php/$1 [L]
