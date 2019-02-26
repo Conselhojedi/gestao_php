@@ -1,0 +1,87 @@
+body {
+	margin:0;
+	padding:0;
+	font-size:13px;
+	font-family:Arial;
+}
+.leftmenu {
+	width:200px;
+	background-color:#1f232a;
+	position:fixed;
+	left:0;
+	top:0;
+	bottom:0;
+}
+.company_name {
+	height:100px;
+	line-height: 100px;
+	font-size:18px;
+	color:#FFF;
+	text-align: center;
+}
+
+.container{
+padding-left:200px;
+}
+.top{
+  height: 40px;
+  background-color: #232830;
+  color:#FFF;
+  font-size: 13px;
+}
+.top_right{
+float: right;
+height: 40px;
+line-height: 40px;
+padding-left: 10px;
+padding-right: 10px;
+}
+.menuarea {
+	color:#FFF;
+}
+.menuarea ul {
+	margin:0;
+	padding:0;
+	list-style: none;
+}
+.menuarea li {
+	height:40px;
+	line-height: 40px;
+	font-size:12px;
+	padding-left:30px;
+	background-size:10px 10px;
+	background-repeat: no-repeat;
+	background-position: 10px 14px;
+}
+.menuarea li:hover {
+	background-color:#000;
+}
+.menuarea li a {
+	color:#FFF;
+	text-decoration: none;
+	display:block;
+}
+.menuarea li:nth-child(1){
+  background-image: url('../images/home.png');
+}
+.menuarea li:nth-child(2) {
+	background-image:url('../images/key.png');
+}
+.menuarea li:nth-child(3) {
+	background-image:url('../images/users.png');
+}
+.menuarea li:nth-child(4) {
+	background-image:url('../images/clients.png');
+}
+.menuarea li:nth-child(5) {
+	background-image:url('../images/inventory.png');
+}
+.menuarea li:nth-child(6) {
+	background-image:url('../images/sales.png');
+}
+.menuarea li:nth-child(7) {
+	background-image:url('../images/purchases.png');
+}
+.menuarea li:nth-child(8) {
+	background-image:url('../images/reports.png');
+}

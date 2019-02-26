@@ -1,6 +1,11 @@
 <?php
 require 'environment.php';
+
+define("BASE_URL", "http://localhost/gestao_php/");
+
+global $config;
 $config = array();
+<<<<<<< HEAD
 if (ENVIRONMENT == 'development') {
     $config['base_url'] = 'http://localhost/gestao_php/';
     $config['dbname'] = '';
@@ -22,3 +27,17 @@ try {
     echo "ERRO: " . $e->getMessage();
     exit;
 }
+=======
+if(ENVIRONMENT == 'development') {
+	$config['dbname'] = 'erp';
+	$config['host'] = 'localhost';
+	$config['dbuser'] = 'root';
+	$config['dbpass'] = '';
+} else {
+	$config['dbname'] = 'erp';
+	$config['host'] = 'localhost';
+	$config['dbuser'] = 'root';
+	$config['dbpass'] = '';
+}
+?>
+>>>>>>> 8fdbedb6744e074dbb6e57209d6fb327482c36d2
