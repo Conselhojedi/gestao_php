@@ -5,11 +5,13 @@
         <link href="<?php echo BASE_URL; ?>/assets/css/login.css" rel="stylesheet" />
     </head>
     <body>
+        <h1>Login</h1>
         <div class="loginarea">
         	<form method="POST">
-        		<input type="email" name="email" placeholder="seuemail@exemplo.com.br" />
-
-        		<input type="password" name="password" placeholder="******" />
+                Login:
+        		<input type="email" name="email" placeholder="seuemail@exemplo.com.br" required  /><br>
+                Senha: 
+        		<input type="password" name="password" placeholder="******" required /> <br><br>
 
         		<input type="submit" value="Entrar" /><br/>
 
